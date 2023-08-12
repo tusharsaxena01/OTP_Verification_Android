@@ -116,6 +116,7 @@
                 android:importantForAutofill="no"
                 android:inputType="number"
                 android:layout_marginEnd="2dp"
+                android:gravity="center"
                 />
             <EditText
                 android:layout_marginStart="1dp"
@@ -139,7 +140,7 @@
                 android:background="@drawable/background_box"
                 android:id="@+id/etOTP6"
                 android:textSize="16sp"
-                android:imeOptions="actionNext"
+                android:imeOptions="actionDone"
                 android:maxLength="1"
                 android:importantForAutofill="no"
                 android:inputType="number"
