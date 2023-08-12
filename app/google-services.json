@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "50256758830-uqpsslol097ugmjkhhejjnmf332d04tp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abhi_saxena.otpverification",
+            "certificate_hash": "c195e7a5dc984a82ff0be62de9bd6cc8dae1a288"
+          }
+        },
+        {
           "client_id": "50256758830-ptnit1hg7fbutsmfqc40pfgq004q54d2.apps.googleusercontent.com",
           "client_type": 3
         }

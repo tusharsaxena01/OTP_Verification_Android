@@ -87,10 +87,8 @@ public class MainActivity extends AppCompatActivity {
                             .setActivity(MainActivity.this)
                             .setCallbacks(mCallbacks)
                             .build();
-//                    Intent intent = new Intent(getApplicationContext(), VerifyOTP.class);
-//                    intent.putExtra("mobile", binding.etMobile.getText().toString());
-//                    intent.putExtra("backEndOTP", OTP[0]);
-//                    startActivity(intent);
+
+                    PhoneAuthProvider.verifyPhoneNumber(options);
                 } else {
                     Toast.makeText(MainActivity.this, "Enter valid Mobile Number", Toast.LENGTH_SHORT).show();
                 }
